@@ -5,6 +5,5 @@
     "homepage": "https://github.com/JustinBStrong/openInBrowser",
     "version": "1.0.0",
     "author": "Justin Strong",
-    "license": "MIT",
-    "i18n": [ "en", "fr"]
+    "license": "MIT"
 }
