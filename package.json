@@ -1,0 +1,18 @@
+{
+    "name": "yourname.your-extension-id",
+    "title": "Pretty Title for the UI",
+    "description": "More useful details to let someone know what your extension is all about.",
+    "homepage": "https://github.com/yourname/yourproject",
+    "version": "1.0.0",
+    "author": "Your Name <your@email> (http://your.url)",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.24.0"
+    },
+    "i18n": [ "en", "fr"],
+    "package-i18n": {
+        "fr": {
+            "description": "Plus de détails utiles pour laisser quelqu'un savoir ce que votre poste est tout au sujet."
+        }
+    }
+}
