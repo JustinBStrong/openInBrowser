@@ -1,6 +1,6 @@
 {
     "name": "strong.justin.openinbrowser",
-    "title": "Open in Browser",
+    "title": "Open in Browser ",
     "description": "Open in Browser is a Brackets extension which allows you to open a file from the Working Files pane in the default browser or application using a context menu or the keyboard shortcut CMD-2/CTRL-2",
     "homepage": "https://github.com/JustinBStrong/openInBrowser",
     "version": "1.0.0",
