@@ -1,18 +1,10 @@
 {
-    "name": "yourname.your-extension-id",
-    "title": "Pretty Title for the UI",
-    "description": "More useful details to let someone know what your extension is all about.",
-    "homepage": "https://github.com/yourname/yourproject",
+    "name": "strong.justin.openinbrowser",
+    "title": "Open in Browser",
+    "description": "Open in Browser is a Brackets extension which allows you to open a file from the Working Files pane in the default browser or application using a context menu or the keyboard shortcut CMD-2/CTRL-2",
+    "homepage": "https://github.com/JustinBStrong/openInBrowser",
     "version": "1.0.0",
-    "author": "Your Name <your@email> (http://your.url)",
+    "author": "Justin Strong",
     "license": "MIT",
-    "engines": {
-        "brackets": ">=0.24.0"
-    },
-    "i18n": [ "en", "fr"],
-    "package-i18n": {
-        "fr": {
-            "description": "Plus de détails utiles pour laisser quelqu'un savoir ce que votre poste est tout au sujet."
-        }
-    }
+    "i18n": [ "en", "fr"]
 }
