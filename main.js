@@ -12,23 +12,24 @@ define(function (require, exports, module) {
         PreferencesManager = brackets.getModule("preferences/PreferencesManager"),
         prefs = PreferencesManager.getExtensionPrefs("OpenInBrowser");
 
+    //Where the magic happens
     function handleOpenInBrowser() {
         if (prefs.get("SaveFileBeforeOpening")) {
             CommandManager.execute("file.save");
         }
         var doc = ProjectManager.getSelectedItem();
         if (doc) {
-            //console.log(doc._path);
             var path = "file://" + doc._path;
             var finalPath = path.replace(/\s/g, "%20");
-            //console.log(path);
-            //console.log(finalPath);
             NativeApp.openURLInDefaultBrowser(finalPath);
         } else {
-            console.log("error 1");
+            //No document selected to open
+            //There is only one error now and I hope it stays that way
+            console.log("Error 1");
         }
     }
 
+    //Binds the CMD-2/CTRL-2 key combo and the context menu
     var openInBrowser = "strong.justin.openinbrowser";
     CommandManager.register("Open in Browser", openInBrowser, handleOpenInBrowser);
     var workingsetMenu = Menus.getContextMenu(Menus.ContextMenuIds.WORKING_SET_CONTEXT_MENU);
