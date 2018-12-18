@@ -1,9 +1,9 @@
 {
     "name": "strong.justin.openinbrowser",
     "title": "Open in Browser ",
-    "description": "Open in Browser is a Brackets extension which allows you to open a file from the Working Files pane in the default browser or application using a context menu or the keyboard shortcut CMD-2/CTRL-2",
+    "description": "Version 1.1.0: Now saves before opening the file. If you like my work then let's work together, check out my resume: https://u.nu/13tp Version 1.0.0: Open in Browser is a Brackets extension which allows you to open a file from the Working Files pane in the default browser or application using a context menu or the keyboard shortcut CMD-2/CTRL-2.",
     "homepage": "https://github.com/JustinBStrong/openInBrowser",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "Justin Strong",
     "license": "MIT"
 }
