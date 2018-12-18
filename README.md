@@ -7,7 +7,8 @@ If you like my work then let's work together, I'm looking for a Software Enginee
 
 ## Version History
 Version 1.1.0
-Open in Browser now saves your file before opening it so you can view your latest changes. This version also adds a preference to turn off saving before opening.
+* Open in Browser now saves your file before opening it so you can view your latest changes.
+* Adds a preference to turn off saving before opening.
 
 Version 1.0.0
-Allows you to open a file in the browser or default application using the working files context menu or the keyboard shortcut CMD-2/CTRL-2.
+* Allows you to open a file in the browser or default application using the working files context menu or the keyboard shortcut CMD-2/CTRL-2.
